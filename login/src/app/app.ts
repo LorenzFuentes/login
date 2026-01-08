@@ -4,7 +4,7 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
 import { FormsModule } from '@angular/forms';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzCheckboxModule } from 'ng-zorro-antd/checkbox';
-import { User } from '../app/services/user'
+import { User } from '../app/pages/users/user'
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet,NzCheckboxModule,NzButtonModule,FormsModule,NzInputModule],
